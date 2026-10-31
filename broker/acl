@@ -1,0 +1,15 @@
+# Board: publishes data, only reads commands
+user esp32
+topic write rackwatch/+/status
+topic write rackwatch/+/alert
+topic write rackwatch/+/online
+topic read rackwatch/+/cmd
+
+# Apps: read everything, only they can send commands
+user desktop
+topic read rackwatch/#
+topic write rackwatch/+/cmd
+
+user phone
+topic read rackwatch/#
+topic write rackwatch/+/cmd
