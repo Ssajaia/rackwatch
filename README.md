@@ -4,7 +4,7 @@ IoT server-rack monitoring: a virtual/real ESP32 publishes sensor data over MQTT
 
 **Lecturer:** Zurab Topuria
 
-**Contributors:** Saba Sajaia ([Ssajaia](https://github.com/Ssajaia)), Tiko Gudadze (Tgudadze), Archil Nikoleishvili (Nikol4dev)
+**Contributors:** Saba Sajaia ([Ssajaia](https://github.com/Ssajaia)), Tiko Gudadze ([Tgudadze](https://github.com/Tgudadze), Archil Nikoleishvili ([Nikol4dev](https://github.com/Nikol4dev))
 
 ## Structure
 
